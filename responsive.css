@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1150px) {
+    .navigation {
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 414px;
+    }
+
+    .nav-components {
+        flex-direction: column;
+    }
+
+    .nav-components li {
+        padding: 15px;
+    }
+
+    .nav-components li a {
+        font-size: 0.9rem;
+    }
+
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .second-part img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .game-engine {
+        font-size: 1.5rem;
+    }
+
+    .first-part .gametext {
+        font-size: 0.81rem;
+    }
+
+    p {
+        font-size: 0.81rem;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 4px;
+        font-size: 0.7rem;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        height: 30px;
+    }
+
+    .visibility {
+        visibility: hidden;
+    }
+}
